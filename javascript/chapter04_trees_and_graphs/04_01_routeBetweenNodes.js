@@ -1,3 +1,19 @@
+/* 
+  Use breadth-first search (BFS) of the graph starting from source node,
+  keeping track of what has already been "visited". Will only return true
+  if the the node has not been visited before and is equal to the target.
+
+  (careercup) BFS would be useful where the nodes have many out
+  edges (degrees) and paths between pairs are not exceedingly deep as it will
+  visit neighbours from the source node radiating outwards.
+
+  N = |nodes|
+  M = |edges|
+  Time: O(M)
+  Additional space: O(N)
+  
+*/
+
 function checkRoute(source, target) {
   let visited = new Set();
   let queue = [source];

@@ -4,7 +4,7 @@ class Node {
     this.next = null;
   }
 }
-/**
+/*
  * Walk one pointer ahead k nodes first then create a second pointer to the
  * start of the list. Walk both pointers until the first one hits the end of the
  * list, at that point the second pointer will be pointing to the kth to last
